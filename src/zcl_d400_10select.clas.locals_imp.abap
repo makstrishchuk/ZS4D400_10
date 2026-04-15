@@ -1,0 +1,13 @@
+INTERFACE lif_demo_01.
+
+  DATA mv_demo_01 TYPE string.
+
+ENDINTERFACE.
+
+
+CLASS lcl_demo_01 DEFINITION.
+
+  PUBLIC SECTION.
+    INTERFACES lif_demo_01.
+
+ENDCLASS.
